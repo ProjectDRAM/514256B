@@ -1,11 +1,13 @@
 # Amiga DRAM chip tester for HYB-514256B with Arduino  
-(c) Pantelis 2018 
 
-** THIS ARDUINO PROJECT TEST 256 x 4 bit DRAM CHIPS: HYB-514256B IF THEY ARE FAULTY.   
-These chips and similar ones, are the base memory chips of an Amiga 500 and 500+  
-UNFORTUNATELY SOMETHING IS MISSING AND THE TEST CANT WORK FOR 100%.  
-SO IT IS IN DEPOLYMENT PROGRESS AND IN BETA TESTING.  
-CONTRIBUTORS MAY WELCOMED TO HELP FIX THIS TO OFFER IT TO PUBLIC.  
+BETA VERSION NOT A FINAL, IN TESTING PROGRESS , CONTRIBUTORS WANTED. 
+
+** This Arduino project tests 256 x 4 bit dram chips: hyb-514256b if they are faulty.  
+These chips and similar ones, are the base memory chips of an Amiga 500 and 500+ computer    
+Unfortunately something is missing and the test can’t work for 100% but is giving some results.  
+So it is in deployment progress and in beta testing.  
+Contributors may welcomed to help fix this to offer it to public.  
+
 
 The 514256b ram chips are 4bit 256KB with 20pin and in A500+ there are 8 of them.  
 So they are 8*4*256 = 8192 bit = 8192 / 8 = 1024 bytes = 1Kb.  
