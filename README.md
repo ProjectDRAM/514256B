@@ -24,8 +24,8 @@ Also a ziff socket will be good idea for securing the chip but the breadboard ho
  3- Output DOUT must be high-Z in the absence of RAS/CAS activity.
  4- Output DOUT is push-pull AFTER the RAS/CAS read sequence (see datasheet). If it's high-Z, it's broken.
 
-```
 ##				Wiring diagram:
+```
 
 	 Chip				    Arduino
 Description / AA	  Description / Arduino Number  
