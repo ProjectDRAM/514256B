@@ -1,4 +1,6 @@
-# Amiga DRAM chip tester for HYB-514256B with Arduino  
+# Amiga DRAM chip tester for HYB-514256B with Arduino
+
+![](img/arduino.jpg)
 
 BETA VERSION NOT A FINAL, IN TESTING PROGRESS , CONTRIBUTORS WANTED. 
 
@@ -11,8 +13,6 @@ Contributors may welcomed to help fix this to offer it to public.
 
 The 514256b ram chips are 4bit 256KB with 20pin and in A500+ there are 8 of them.  
 So they are 8x4x256 = 8192 bit = 8192 / 8 = 1024 bytes = 1Kb.  
-  
-![](img/arduino.jpg)  
   
 ## Please read carefully:
 This project is on your own risk, and not intended for professional use.
