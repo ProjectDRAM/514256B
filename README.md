@@ -32,6 +32,8 @@ Also a ziff socket will be good idea for securing the chip but the breadboard ho
 
      Chip                         Arduino
 Description / AA         Description / Arduino Number
+     Chip                         Arduino
+Description / AA         Description / Arduino Number
   CHIP    ARDUINO        ARDUINO    CHIP
 -------+---------     ----------+--------
 IO1  1   A1   15        PD2  2    17   CAS
@@ -55,6 +57,7 @@ IO3  18  A3   17        17   A3   18   IO3
 IO4  19  A4   18        18   A4   19   IO4
 VSS  20  GND  GND       19   A5   3    WE
 --   --  4    PD4       GND  GND  20   VSS
+
 
 
 ## Special Thanks:
