@@ -1,4 +1,4 @@
-# Amiga DRAM chip tester for HYB-514256B with Arduino
+## Amiga DRAM chip tester for HYB-514256B with Arduino UNO
 
 ![](arduino.jpg)
 
