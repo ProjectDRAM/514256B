@@ -9,30 +9,33 @@ So they are 8*4*256 = 8192 bit = 8192 / 8 = 1024 bytes = 1Kb.
 
 
 ## Please read carefully:
+----------------------
 This project is on your own risk, and not intended for professional use.
 You can use it on your own risk and I am not responsible for any damage by any reason.
 Before you make the Arduino software test, you must check first with a multimemeter if your chip is broken to protect your hardware, see bellow
 
 ## What you will need:
+-------------------
 A multimeter for checking if chip is broken.
 You will also need a breadboard connecting cables and of course the ram chips to check.
 Also a ziff socket will be good idea for securing the chip but the breadboard holes can also be used.
 
 ## Initial procedure before testing your chips:
+--------------------------------------------
  1- Check for shorted Vcc
- 2- Inputs Ax, /CAS, /RAS, /WE, DIN must be high-Z. If shorted to 0v/5v,    it's broken.
+ 2- Inputs Ax, /CAS, /RAS, /WE, DIN must be high-Z. If shorted to 0v/5v,	it's broken.
  3- Output DOUT must be high-Z in the absence of RAS/CAS activity.
  4- Output DOUT is push-pull AFTER the RAS/CAS read sequence (see datasheet). If it's high-Z, it's broken.
 
 
-##              Wiring diagram:
+##				Wiring diagram:
 
-     Chip                         Arduino
-Description / AA         Description / Arduino Number
 	 Chip						  Arduino
 Description / AA		 Description / Arduino Number
   CHIP	  ARDUINO		 ARDUINO	CHIP
--------+---------	  ----------+--------
+  
+ -------+---------	  ----------+--------
+ 
 IO1	 1	 A1	  15		PD2	 2	  17   CAS
 IO2	 2	 A2	  16		PD3	 3	  4	   RAS
 WE	 3	 A5	  19		PD4	 4	  --   --
@@ -55,17 +58,26 @@ IO4	 19	 A4	  18		18	 A4	  19   IO4
 VSS	 20	 GND  GND		19	 A5	  3	   WE
 --	 --	 4	  PD4		GND	 GND  20   VSS
 
+
 ## Special Thanks:
-I would like to thank 1st of all the Amiga and Commodore community 
+----------------
+I would like to thank 1st of all the Amiga and Commodore community
+
 for keeping alive these very old but so beloved and wonderful machines,
+
 and all the people who spend a lot of time to share their work with others:
 
+
 Commodore 64 hardware test tools
+
 jamarju
+
 https://github.com/jamarju/c64_test_tools
 
 iss: for DRAMARDUINO - Dram tester with Arduino
+
 http://forum.defence-force.org/viewtopic.php?p=15035&sid=17bf402b9c2fd97c8779668b8dde2044
 
 Chris Osborn:
+
 http://insentricity.com/a.cl/252
