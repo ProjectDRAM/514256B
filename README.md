@@ -12,7 +12,7 @@ Contributors may welcomed to help fix this to offer it to public.
 
 
 The 514256b ram chips are 4bit 256KB with 20pin and in A500+ there are 8 of them.  
-So they are 8x4x256 = 8192 bit = 8192 / 8 = 1024 bytes = 1Kb.  
+So they are 8x4x256K = 8192 Kbit = 8192 / 8 = 1024 Kbytes = 1Mb.  
   
 ## Please read carefully:
 This project is on your own risk, and not intended for professional use.
