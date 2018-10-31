@@ -1,8 +1,7 @@
-## Amiga DRAM chip tester for HYB-514256B with Arduino UNO
+## Amiga DRAM chip tester for HYB-514256B with Arduino UNO (c) Pantelis 2018
 
 ![](arduino.jpg)
 
-(c) Pantelis 2018  
 BETA VERSION NOT A FINAL, IN TESTING PROGRESS , CONTRIBUTORS WANTED. 
 
 ** This Arduino project tests 256 x 4 bit dram chips: hyb-514256b if they are faulty.  
