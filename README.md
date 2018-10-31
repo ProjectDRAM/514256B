@@ -27,7 +27,7 @@ Also a ziff socket will be good idea for securing the chip but the breadboard ho
 ##				Wiring diagram:
 ```
 
-      Chip			       Arduino
+      Chip		  Arduino
 Description / AA	  Description / Arduino Number  
  CHIP	 ARDUINO	     ARDUINO	CHIP  
 -------+-----------	    ----------+--------  
