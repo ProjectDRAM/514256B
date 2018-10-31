@@ -1,6 +1,6 @@
 # Amiga DRAM chip tester for HYB-514256B with Arduino
 
-![](img/arduino.jpg)
+![](img/arduino.JPG)
 
 BETA VERSION NOT A FINAL, IN TESTING PROGRESS , CONTRIBUTORS WANTED. 
 
