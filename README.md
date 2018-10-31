@@ -3,21 +3,21 @@
 BETA VERSION NOT A FINAL, IN TESTING PROGRESS , CONTRIBUTORS WANTED. 
 
 ** This Arduino project tests 256 x 4 bit dram chips: hyb-514256b if they are faulty.  
-These chips and similar ones, are the base memory chips of an Amiga 500 and 500+ computer    
+These chips and similar ones, are the base memory chips of an Amiga 500 and 500+ computer.  
 Unfortunately something is missing and the test can’t work for 100% but is giving some results.  
 So it is in deployment progress and in beta testing.  
 Contributors may welcomed to help fix this to offer it to public.  
 
 
 The 514256b ram chips are 4bit 256KB with 20pin and in A500+ there are 8 of them.  
-So they are 8*4*256 = 8192 bit = 8192 / 8 = 1024 bytes = 1Kb.  
+So they are 8x4x256 = 8192 bit = 8192 / 8 = 1024 bytes = 1Kb.  
   
 ![](img/arduino.jpg)  
   
 ## Please read carefully:
 This project is on your own risk, and not intended for professional use.
 You can use it on your own risk and I am not responsible for any damage by any reason.
-Before you make the Arduino software test, you must check first with a multimemeter if your chip is broken to protect your hardware, see bellow
+Before you make the Arduino software test, you must check first with a multimemeter if your chip is broken to protect your hardware, see bellow.
 
 ## What you will need:
 A multimeter for checking if chip is broken.
@@ -33,7 +33,7 @@ Also a ziff socket will be good idea for securing the chip but the breadboard ho
 ##				Wiring diagram:
 ```
 
-      Chip		  Arduino
+ Chip - Arduino		   Arduino - Chip
 Description / AA	  Description / Arduino Number  
  CHIP	 ARDUINO	     ARDUINO	CHIP  
 -------+-----------	    ----------+--------  
