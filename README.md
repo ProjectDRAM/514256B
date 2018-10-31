@@ -9,19 +9,19 @@ So they are 8*4*256 = 8192 bit = 8192 / 8 = 1024 bytes = 1Kb.
 ![](img/arduino.jpg)
 
 
-##Please read carefully:
+## Please read carefully:
 ----------------------
 This project is on your own risk, and not intended for professional use.
 You can use it on your own risk and I am not responsible for any damage by any reason.
 Before you make the Arduino software test, you must check first with a multimemeter if your chip is broken to protect your hardware, see bellow
 
-##What you will need:
+## What you will need:
 -------------------
 A multimeter for checking if chip is broken.
 You will also need a breadboard connecting cables and of course the ram chips to check.
 Also a ziff socket will be good idea for securing the chip but the breadboard holes can also be used.
 
-##Initial procedure before testing your chips:
+## Initial procedure before testing your chips:
 --------------------------------------------
  1- Check for shorted Vcc
  2- Inputs Ax, /CAS, /RAS, /WE, DIN must be high-Z. If shorted to 0v/5v,    it's broken.
@@ -58,7 +58,7 @@ VSS  20  GND  GND       19   A5   3    WE
 --   --  4    PD4       GND  GND  20   VSS
 
 
-##Special Thanks:
+## Special Thanks:
 ----------------
 I would like to thank 1st of all the Amiga and Commodore community
 for keeping alive these very old but so beloved and wonderful machines,
