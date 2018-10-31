@@ -1,4 +1,4 @@
-# Amiga DRAM tester for HYB-514256B with Arduino UNO 
+# Amiga DRAM chip tester for HYB-514256B with Arduino  
 
 The 514256b ram chips are 4bit 256KB with 20pin and in A500+ there are 8 of them.  
 So they are 8*4*256 = 8192 bit = 8192 / 8 = 1024 bytes = 1Kb.  
@@ -54,15 +54,15 @@ VSS  20    GND  GND      19    A5   3   WE
 ## Special Thanks:
 I would like to thank first of all the Amiga and Commodore community for keeping alive these very old but so beloved and wonderful machines, and all the people who spend a lot of time to share their work with others:  
 
-
+  
+iss: for DRAMARDUINO - Dram tester with Arduino  
+http://forum.defence-force.org/viewtopic.php?p=15035&sid=17bf402b9c2fd97c8779668b8dde2044  
+  
+  
 Commodore 64 hardware test tools  
 jamarju  
 https://github.com/jamarju/c64_test_tools  
-
-
-iss: for DRAMARDUINO - Dram tester with Arduino  
-http://forum.defence-force.org/viewtopic.php?p=15035&sid=17bf402b9c2fd97c8779668b8dde2044  
-
-
+  
+  
 Chris Osborn:  
 http://insentricity.com/a.cl/252
