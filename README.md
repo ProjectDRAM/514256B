@@ -55,7 +55,7 @@ VSS  20    GND  GND      19    A5   3   WE
 ```  
   
 ## Special Thanks:
-I would like to thank 1st of all the Amiga and Commodore community for keeping alive these very old but so beloved and wonderful machines, and all the people who spend a lot of time to share their work with others:  
+I would like to thank first of all the Amiga and Commodore community for keeping alive these very old but so beloved and wonderful machines, and all the people who spend a lot of time to share their work with others:  
 
 
 Commodore 64 hardware test tools  
