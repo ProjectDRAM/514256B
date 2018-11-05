@@ -8,7 +8,7 @@
  4- Output DOUT is push-pull AFTER the RAS/CAS read sequence (see datasheet). If it's high-Z, it's broken.  
  
 
- CHIP	ARDUINO		                                    ARDUINO	 CHIP
+ CHIP	       ARDUINO                               ARDUINO	 CHIP
 -----------+--------------                             -------------+-------------
 IO1	1	  A1	15				PD2	2	  17	CAS
 IO2	2	  A2	16				PD3	3	  4	  RAS
